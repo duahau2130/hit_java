@@ -36,7 +36,7 @@ public class bai4 {
                 }else
                     System.out.println("phuong trinh vo nghiem");
             }
-        }else{
+        }else if (a > 0){
             if(s1 >= 0){
                 x1 = Math.sqrt(s1);
                 x2 = Math.sqrt(s1);
@@ -49,6 +49,8 @@ public class bai4 {
                 System.out.println("x3 = " + x3);
                 System.out.println("x4 = " + -x4);
             }
+        }else{
+            System.out.println("phuong trinh vo nghiem");
         }
     }
 }
