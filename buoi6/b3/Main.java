@@ -11,6 +11,7 @@ public class Main {
         n = sc.nextInt();
         ArrayList<HangHoaDienTu> hhDT = new ArrayList<HangHoaDienTu>(n);
         ArrayList<HangHoaGiaDung> hhGD = new ArrayList<HangHoaGiaDung>(n);
+        
         System.out.println("--------Nhap thong tin hang hoa gia dung---------");
         for(int i = 0 ; i < n ; i++){
             System.out.println("----thong tin hang hoa gia dung" + (i + 1));
@@ -19,6 +20,7 @@ public class Main {
             hhGD.add(hhGD1);
             System.out.println();
         }
+
         System.out.println("--------Nhap thong tin hang hoa dien tu---------");
         for (int i = 0 ; i < n ; i++){
             System.out.println("----thong tin hang hoa dien tu" + (i + 1));
@@ -27,6 +29,7 @@ public class Main {
             hhDT.add(hhDT1);
             System.out.println();
         }
+
         System.out.println("========Thong tin cac mat hang========");
         int i = 0;
         System.out.println("---Thong tin hang hoa gia dung----");
@@ -35,6 +38,7 @@ public class Main {
             hangGD.output();
             ++i;
         }
+
         int j =0;
         System.out.println("...................................................");
         System.out.println("---Thong tin hang hoa dien tu----");
